@@ -1,0 +1,331 @@
+Design a premium multi-page portfolio website UI for a freelance Video Editor + Graphic Designer.
+
+PRIMARY GOAL:
+Convert visitors into freelance clients through premium design, strong portfolio presentation, and clear CTAs.
+
+----------------------------------------
+BRAND STYLE
+----------------------------------------
+
+Theme Colors:
+Matte Black: #0D0D0D
+Secondary Black: #1A1A1A
+Burnt Orange: #FF6B00
+Champagne Gold: #E6C07B
+White: #FFFFFF
+Grey Text: #B8B8B8
+
+Visual Style:
+Luxury creative studio
+Cinematic
+Modern
+Minimal
+Premium
+Editorial-inspired
+High-converting personal brand website
+
+Avoid:
+Generic SaaS layouts
+Overcrowded sections
+Basic templates
+Flat boring cards
+Default typography feel
+
+Add:
+Subtle glow effects
+Soft gradients
+Glassmorphism
+Cinematic thumbnails
+Luxury spacing
+Modern interactions
+Premium hover effects
+
+----------------------------------------
+TYPOGRAPHY SYSTEM
+----------------------------------------
+
+Heading Font:
+Clash Display
+
+Use for:
+Hero heading
+Section headings
+Portfolio titles
+CTA headings
+
+Body Font:
+Inter
+
+Use for:
+Navbar
+Paragraphs
+Buttons
+Footer
+Testimonials
+Forms
+
+Typography Rules:
+Hero heading: 60–64px
+Section headings: 40–48px
+Body text: 16–18px
+Clean line spacing
+Strong hierarchy
+No awkward line breaks
+
+Hero heading format:
+
+"I Create"
+"High-Converting"
+"Videos & Designs"
+
+Supporting line:
+"That Help Brands Grow Faster"
+
+----------------------------------------
+WEBSITE STRUCTURE
+----------------------------------------
+
+Pages:
+1. Home
+2. Portfolio
+3. Blog
+4. Single Blog Page
+5. Contact
+6. Privacy Policy
+
+----------------------------------------
+PAGE 1: HOME PAGE
+----------------------------------------
+
+Sticky Navbar:
+Left:
+Personal logo/name
+
+Center:
+Home
+About
+Portfolio
+Services
+Blog
+Contact
+
+Right:
+Hire Me button
+
+Transparent navbar
+Blur effect
+
+----------------------------------------
+
+Hero Section:
+Left:
+Hero heading
+Supporting text
+Buttons:
+View Work
+Contact Me
+
+Right:
+Premium cinematic showreel mockup
+Realistic video previews
+Motion preview cards
+Floating thumbnails
+
+----------------------------------------
+
+Trust Section:
+30+ International Clients
+50+ Businesses Served
+100+ Projects Delivered
+Fast Turnaround Time
+
+Premium stat layout
+
+----------------------------------------
+
+About Section:
+Professional image
+Personal story
+Journey
+Skills summary
+
+----------------------------------------
+
+Tools I Use:
+Adobe Premiere Pro
+Adobe After Effects
+Adobe Photoshop
+Adobe Illustrator
+Figma
+
+Premium icon badges
+
+----------------------------------------
+
+Featured Portfolio:
+Two categories:
+
+Video Editing
+- Reels
+- YouTube edits
+- Motion graphics
+
+Graphic Designing
+- Posters
+- Thumbnails
+- Logos
+- Ad creatives
+
+Large premium cards
+Hover previews
+
+CTA:
+View More Work
+
+----------------------------------------
+
+Services Section:
+Reel Editing
+YouTube Editing
+Motion Graphics
+Thumbnail Design
+Poster Design
+Logo Design
+Ad Creatives
+
+Premium service cards
+
+----------------------------------------
+
+Testimonials:
+Client reviews
+Client screenshots
+Results proofs
+
+----------------------------------------
+
+Blog Preview:
+Editing tips
+Design tips
+Case studies
+Growth content
+
+CTA:
+Read More
+
+----------------------------------------
+
+Final CTA:
+"Let’s Create Something People Remember"
+
+Buttons:
+WhatsApp
+Email
+Instagram
+
+Balanced layout
+
+----------------------------------------
+
+Footer:
+Quick links
+Social links
+Neuro Works AI website link
+Privacy policy
+Copyright
+
+----------------------------------------
+PAGE 2: PORTFOLIO PAGE
+----------------------------------------
+
+Portfolio hero section
+
+Two tabs:
+
+Video Editing
+- Reels
+- YouTube edits
+- Motion graphics
+- Short-form content
+
+Graphic Designing
+- Posters
+- Thumbnails
+- Logos
+- Ad creatives
+
+Large grid layout
+Hover previews
+Video previews
+Case study cards
+
+----------------------------------------
+PAGE 3: BLOG PAGE
+----------------------------------------
+
+Blog hero section
+
+Categories:
+Editing tips
+Design tips
+Case studies
+Content growth
+
+Featured blog section
+Blog grid
+Search bar
+
+----------------------------------------
+PAGE 4: SINGLE BLOG PAGE
+----------------------------------------
+
+Featured blog image
+Article title
+Author section
+Reading time
+Article content
+Related articles
+CTA section
+
+----------------------------------------
+PAGE 5: CONTACT PAGE
+----------------------------------------
+
+Contact hero section
+
+WhatsApp button
+Instagram button
+Email button
+Contact form
+
+FAQ section
+
+----------------------------------------
+PAGE 6: PRIVACY POLICY PAGE
+----------------------------------------
+
+Simple clean layout
+Readable text structure
+
+----------------------------------------
+GLOBAL UI RULES
+----------------------------------------
+
+Desktop-first:
+1440px width
+
+Responsive mobile design
+
+Use:
+Asymmetrical layouts
+Better spacing
+Premium visual hierarchy
+Realistic portfolio previews
+Luxury minimal design
+
+Make the website feel like:
+Luxury creative studio
+Cinematic editor portfolio
+Premium personal brand
+
+Final result should feel unique and premium—not like a generic Figma AI template.
