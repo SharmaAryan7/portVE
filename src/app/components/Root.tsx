@@ -1,10 +1,9 @@
-import { Outlet, Link, useLocation, useNavigationType } from "react-router"; // Added useNavigationType
+import { Outlet, Link, useLocation, ScrollRestoration } from "react-router";
 import { Menu, X, ArrowRight, Instagram } from "lucide-react";
 import { useState, useEffect } from "react";
 
 export function Root() {
   const location = useLocation();
-  const navType = useNavigationType(); // Detects if the user clicked "Back"
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
@@ -47,7 +46,7 @@ export function Root() {
     setMobileMenuOpen(false);
   };
 
-  // Handle smooth scrolling and back-button scroll restoration
+  // Handle smooth scrolling for hash links
   useEffect(() => {
     if (location.hash) {
       const element = document.getElementById(location.hash.substring(1));
@@ -64,11 +63,8 @@ export function Root() {
           });
         }, 100);
       }
-    } else if (navType !== "POP") {
-      // ONLY scroll to top if the user is NOT using the Back/Forward browser buttons
-      window.scrollTo({ top: 0, behavior: "smooth" });
     }
-  }, [location, navType]);
+  }, [location]);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -139,6 +135,8 @@ export function Root() {
       <main className="flex-1 pt-20">
         <Outlet />
       </main>
+
+      <ScrollRestoration />
 
       <footer className="bg-[#1A1A1A] border-t border-white/10 py-20">
         <div className="max-w-[1440px] mx-auto px-8">

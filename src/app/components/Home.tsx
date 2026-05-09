@@ -15,8 +15,8 @@ export function Home() {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   const stats = [
-    { value: "30+", label: "International Clients" },
-    { value: "50+", label: "Businesses Served" },
+    { value: "50+", label: "Clients" },
+    { value: "20+", label: "Businesses Served" },
     { value: "100+", label: "Projects Delivered" },
     { value: "Fast", label: "Turnaround Time" },
   ];
