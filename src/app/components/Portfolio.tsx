@@ -9,6 +9,13 @@ import IgAdPoster from "../../assets/IgAdPoster.jpeg";
 import tech_startup from "../../assets/tech _startup_branding.jpeg";
 import YTthumbnail from "../../assets/YTthumbnail.jpeg";
 import eventPoster from "../../assets/EventPoster.jpeg";
+import techEdit from "../../assets/techEdit_thumbanail.jpeg";
+import epicEdit from "../../assets/epicEdit_thumbanail.jpeg";
+import cinematicEdit from "../../assets/cinematicVideo_thumbnail.jpeg";
+import premiumProduct from "../../assets/premiumProduct_thumbnail.jpeg";
+import prodMarketing from "../../assets/productMarketing_thumbnail.jpeg";
+import musicVid from "../../assets/musicVideo_thumbnail.jpeg";
+import restBrandig from "../../assets//restaurantBrandig.png";
 
 export function Portfolio() {
   const location = useLocation();
@@ -27,46 +34,46 @@ export function Portfolio() {
 
   const videoProjects = [
     {
-      title: "Brand Awareness Campaign",
+      title: "Tech Edit",
       category: "Reels",
       description: "Viral reel series that generated 2M+ views",
-      // image: videoThumb1, 
-      youtubeId: "lF4qxooChGU", // Example: "dQw4w9WgXcQ"
+      image: techEdit, 
+      youtubeId: "zaC43QSSrog", 
     },
     {
-      title: "Product Launch Video",
+      title: "Epic Edit",
       category: "YouTube Edits",
-      description: "Professional product showcase with motion graphics",
-      // image: videoThumb2,
+      description: "Epic reel edit with enhanced graphics",
+      image: epicEdit,
       youtubeId: "bjWLODcfpEA", 
     },
     {
-      title: "Explainer Animation",
+      title: "Cinematic Video Edit",
       category: "Motion Graphics",
-      description: "Engaging animated explainer for SaaS product",
-      // image: videoThumb3,
-      youtubeId: "AnXvmFKY8FE",
+      description: "Cinematic video edit using motion graphics",
+      image: cinematicEdit,
+      youtubeId: "lF4qxooChGU",
     },
     {
-      title: "Social Media Series",
+      title: "Premium Product Showcase",
       category: "Short-form Content",
-      description: "30-day content series for Instagram and TikTok",
-      // image: videoThumb4,
-      youtubeId: "jD10_RWg0o8",
+      description: "Professional product showcase with motion graphics",
+      image: premiumProduct,
+      youtubeId: "ifBSPqNxXko",
     },
     {
-      title: "Corporate Video",
+      title: "Product Marketing",
       category: "YouTube Edits",
-      description: "Professional corporate presentation with b-roll",
-      // image: videoThumb5,
-      youtubeId: "Sxx0D3sdKG0",
+      description: "Professional product marketing with b-roll",
+      image: prodMarketing,
+      youtubeId: "jjrfii6svyM",
     },
     {
       title: "Music Video Edit",
       category: "Reels",
       description: "Creative music video with dynamic transitions",
-      // image: videoThumb6,
-      youtubeId: "zaC43QSSrog",
+      image: musicVid,
+      youtubeId: "jD10_RWg0o8",
     },
   ];
 
@@ -99,7 +106,7 @@ export function Portfolio() {
       title: "Restaurant Branding",
       category: "Logos",
       description: "Full brand identity for upscale restaurant",
-      // image: restaurantImg,
+      image: restBrandig,
     },
     {
       title: "Instagram Ad Series",
@@ -197,29 +204,6 @@ export function Portfolio() {
             ))}
           </div>
 
-          {activeTab === "video" && (
-            <div className="mt-16 p-8 bg-[#1A1A1A] rounded-2xl border border-white/10">
-              <h3 className="text-white text-2xl mb-4">Video Editing Categories</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="text-[#B8B8B8]">• Reels</div>
-                <div className="text-[#B8B8B8]">• YouTube Edits</div>
-                <div className="text-[#B8B8B8]">• Motion Graphics</div>
-                <div className="text-[#B8B8B8]">• Short-form Content</div>
-              </div>
-            </div>
-          )}
-
-          {activeTab === "design" && (
-            <div className="mt-16 p-8 bg-[#1A1A1A] rounded-2xl border border-white/10">
-              <h3 className="text-white text-2xl mb-4">Graphic Design Categories</h3>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-                <div className="text-[#B8B8B8]">• Posters</div>
-                <div className="text-[#B8B8B8]">• Thumbnails</div>
-                <div className="text-[#B8B8B8]">• Logos</div>
-                <div className="text-[#B8B8B8]">• Ad Creatives</div>
-              </div>
-            </div>
-          )}
         </div>
       </section>
 

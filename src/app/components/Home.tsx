@@ -2,8 +2,10 @@ import { useState, useRef } from "react";
 import { Link } from "react-router";
 import { Play, ArrowRight, Instagram, Mail, MessageCircle, Layers, Film, Sparkles } from "lucide-react";
 
-import profileImg from "../../assets/saurabh_img.png";
+import profileImg from "../../assets/saurabh_img.jpeg";
 import homepageVideo from '../../assets/homepageVideo.mp4';
+import videoEditingCollection from "../../assets/videoEditingCollection.jpeg";
+import graphicDesigningCollection from "../../assets/graphicDesigningCollection.png";
 
 
 export function Home() {
@@ -342,11 +344,11 @@ export function Home() {
             <Link to="/portfolio" state={{ activeTab: "video" }} className="group cursor-pointer block">
               <div className="aspect-video bg-gradient-to-br from-[#1A1A1A] to-[#0D0D0D] rounded-2xl border border-white/10 overflow-hidden relative hover:border-[#FF6B00] hover:shadow-[0_0_40px_rgba(255,107,0,0.3)] transition-all">
                 
-                {/* <img 
-                  src={miscVideoImg} 
+                { <img 
+                  src={videoEditingCollection} 
                   alt="Video Editing Portfolio" 
                   className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500" 
-                /> */}
+                /> }
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex items-end p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <div>
@@ -361,11 +363,11 @@ export function Home() {
             <Link to="/portfolio" state={{ activeTab: "design" }} className="group cursor-pointer block">
               <div className="aspect-video bg-gradient-to-br from-[#1A1A1A] to-[#0D0D0D] rounded-2xl border border-white/10 overflow-hidden relative hover:border-[#E6C07B] hover:shadow-[0_0_40px_rgba(230,192,123,0.3)] transition-all">
                 
-                {/* <img 
-                  src={miscDesignImg} 
+                { <img 
+                  src={graphicDesigningCollection} 
                   alt="Graphic Design Portfolio" 
                   className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500" 
-                /> */}
+                /> }
 
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/40 to-transparent flex items-end p-8 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                   <div>
