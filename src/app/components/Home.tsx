@@ -43,7 +43,7 @@ export function Home() {
 
   const testimonials = [
     {
-      name: "Aryan Sharma",
+      name: "Shivam Sharma",
       role: "Marketing Director",
       comment: "The video editing quality exceeded our expectations. Our engagement increased by 300%!",
       rating: 5,
