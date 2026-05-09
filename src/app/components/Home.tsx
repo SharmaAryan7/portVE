@@ -495,8 +495,9 @@ export function Home() {
           </div>
         </div>
       </section>
-
-      <section className="py-32 px-8 bg-[#1A1A1A]">
+      
+       {/* BLOG SECTION */}
+      {/* <section className="py-32 px-8 bg-[#1A1A1A]">
         <div className="max-w-[1440px] mx-auto">
           <div className="flex justify-between items-end mb-16">
             <div>
@@ -536,7 +537,7 @@ export function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="py-32 px-8">
         <div className="max-w-[900px] mx-auto text-center">
